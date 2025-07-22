@@ -1,0 +1,109 @@
+public abstract class Calculation
+{
+	public abstract void Sum();
+	public void Add()
+	{
+	
+	}
+}
+public class Process:Calculation 
+{
+	public override void Sum()
+	{
+		
+	}
+}
+public class MainCl
+{
+	public static void Main()
+	{
+		Calculation Result=new Process();
+		Result.Sum();
+	}
+}
+
+
+
+/////////////////////////////////////////////////////////////////////
+
+
+public interface IAnimal
+{
+	void Sound();
+}
+public class DOg:IAnimal
+{
+	public void Sound()
+	{
+
+	}
+}
+
+public class Cat:IAnimal
+{
+	public void Sound()
+	{
+
+	}
+}
+
+
+////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////
+
+1. Join Querries
+2.Keys 
+3.Group by 
+4.Having 
+5.joinin two table using joins and using Group by and having 
+
+
+
+
+
+
+
+
+
